@@ -94,3 +94,21 @@ main{
 form{
   margin: 40px 0;
 }
+
+form label, form p{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+form input, form textarea{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+button{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
