@@ -27,16 +27,16 @@
     <form>
 
       <label for="name">Nome e Sobrenome</label>
-      <input type="text" id="name">
+      <input class="input-padrao" type="text" id="name">
 
       <label for="email">Email</label>
-      <input type="text" id="email">
+      <input class="input-padrao"  type="text" id="email">
 
       <label for="telefone">Email</label>
-      <input type="text" id="telefone">
+      <input class="input-padrao"  type="text" id="telefone">
 
       <label for="mensagem">Mensagem</label>
-      <textarea cols="70" rows="10" id="mensagem"></textarea>
+      <textarea class="input-padrao" cols="70" rows="10" id="mensagem"></textarea>
       
       <div>
         <p>Como prefere o nosso contato?</p>
@@ -47,8 +47,16 @@
         <label for="radioWpp"><input type="radio" value="wpp" id="radioWpp" name="contato">WhatsApp</label>
         
       </div>
-
-      <label for="confirmaEmail"><input type="checkbox" id="confirmaEmail">Gostaria de receber nossas mensagens por email?</label>
+      <div>
+        <label for="horarioDeAtendimento">Qual horário prefere ser atendido?</label>
+        <select id="horarioDeAtendimento">
+          <option disabled>Selecione o horário</option>
+          <option value="manha">Manhã</option>
+          <option value="tarde">Tarde</option>
+          <option value="noite">Noite</option>
+        </select>
+      </div>
+      <label for="confirmaEmail"><input class="checkbox" type="checkbox" id="confirmaEmail">Gostaria de receber nossas mensagens por email?</label>
 
       <button type="submit">Enviar</button>
 
