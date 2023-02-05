@@ -1,6 +1,6 @@
 # Resumo
 
-Códigos desenvolvidos durante o programa Desenvolve 2023. Uma parceria entre o grupo Alura include e o Grupo Boticário.
+Códigos desenvolvidos durante o programa Desenvolve 2023. Uma parceria Alura include e o Grupo Boticário.
 
 ## Status
 
@@ -19,3 +19,7 @@ Códigos desenvolvidos durante o programa Desenvolve 2023. Uma parceria entre o 
 ### Link do programa:
 
 https://desenvolve.grupoboticario.com.br/
+
+### Link da escola:
+
+https://cursos.alura.com.br/
